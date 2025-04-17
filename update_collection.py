@@ -1,15 +1,28 @@
 import json
 import shutil
 import os
+import numpy as np
+import trimesh
+import transformations as trans
+import concurrent.futures
 
-print("Process Began")
+# Header
 
-mapsrc = "../mapsrc/"
-mapcol = "map_collection/"
+map_src = "../mapsrc/"
+map_col = "map_collection/"
+
+tf_root = "../../../tf/"
+hl_root = "../../../hl2/"
+
+asset_dirs = [
+    tf_root + "tf2_misc_dir.vpk",
+    tf_root + "tf2_textures_dir.vpk",
+    hl_root + "hl2_misc_dir.vpk",
+    hl_root + "hl2_textures_dir.vpk"
+]
 
 extensions = [
     ".bsp",
-    ".prt",
     ".vmf",
     ".vmx"
 ];
@@ -24,25 +37,42 @@ def read_json_file(file_path):
     except json.JSONDecodeError:
         return "Error: Invalid JSON format in the file."
 
-if (not os.path.exists(mapcol)):
-        os.mkdir(mapcol);
+# Rotates the model to fix the vertical axis
+# Rotate around x by -90
+axis_fix = trans.rotation_matrix(-np.pi / 2, (1, 0, 0))
 
-data = read_json_file('map_list.json')
+# Scales the model to 1u = 1m, instead of 1u = 1hu
+# 16hu = 1ft; 1ft = 0.3048m; 1hu = 0.01905m
+scale_fix = trans.scale_matrix(0.01905, (0, 0, 0))
 
-for map in data :
-    print("Processing map: " + map["name"]);
+def convert_model (src, dest):
+        """Converts an OBJ file to GLB format.
     
-    #Create Folder for Map
-    col_path = mapcol + map["name"];
-    tar_path = col_path + "/" + map["name"];
+        Args:
+            obj_filepath: Path to the input OBJ file.
+            glb_filepath: Path to save the output GLB file.
+        """
+                
+        e = trimesh.load(src);
+        
+        e.apply_transform(axis_fix)
+        e.apply_transform(scale_fix)
+        
+        e.export(dest);
 
-    print(tar_path)
+def handle_map (map_data):
+    print("Processing map: " + map_data["name"]);
+    
+    #Create Folder for map_data
+    col_path = map_col + map_data["name"];
+    tar_path = col_path + "/" + map_data.get("file", map_data["name"]);
 
     if (not os.path.exists(col_path)):
         os.mkdir(col_path);
 
-    #Get Files for Map
-    file_path = mapsrc + map["path"] + map["file"]
+    #Get Files for map_data
+    #TODO get custom assets
+    file_path = map_src + map_data.get("path", "") + map_data.get("file", map_data["name"])
 
     for ext in extensions:
         cur_src = file_path + ext
@@ -52,8 +82,57 @@ for map in data :
             shutil.copy(cur_src, cur_tar);
         else:
             print(f"Path: {cur_src} does not exist")
-    #Pack map?
-    #Compile map
-    #3D Model map
+    
+    #Pack map_data?
+    #Compile map_data
+    #Generate model as obj
+    if (data.get("gen_obj", True)):
+        if (not os.path.exists(tar_path + ".obj") or data.get("force_gen_obj", False)): 
+            print("Generating Model");
+            
+            asset_dir_str = "";
 
+            for asset_dir in asset_dirs:
+                asset_dir_str += asset_dir + ";"
+
+            if "custom_assets" in map_data:
+                for asset_dir in map_data["custom_assets"]:
+                    asset_dir_str += asset_dir + ";"
+            
+            command = f"java -jar ./vmf2obj.jar {file_path}.vmf -o ./{tar_path} -r \"{asset_dir_str}\" -t"
+
+            os.system(command);
+
+    #Convert obj to glb
+    if (data.get("convert", True)):
+        print("Converting obj to " + data.get("convert_type", "glb"))
+        convert_model(tar_path + ".obj", tar_path + "." + data.get("convert_type", "glb"))
+
+        #Cleanup obj files
+        if (data.get("clear_obj", False)):
+            print("Clearing obj")
+            shutil.rmtree(col_path + "/materials");
+            os.remove(tar_path + ".obj");
+            os.remove(rat_path + ".mtl");
+
+# Code Starts
+print("Process Began")
+
+# Make map collection directory
+if (not os.path.exists(map_col)):
+        os.mkdir(map_col);
+
+#Read info file
+data = read_json_file('map_list.json')
+
+if (type(data) is str):
+    input("Error: " + data)
+
+thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=len(data["maps"]))
+
+#Itterate over all maps in the info file
+for map_data in data["maps"] :
+    thread_pool.submit(handle_map, map_data)
+
+thread_pool.shutdown(wait=True)
 input("Done Processing")

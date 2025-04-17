@@ -1,7 +1,29 @@
-[
-	{
-		"name": "ctf_heavy_water",
-		"file": "ctf5_heavy_water_a1",
-		"path": "5flag/ctf5_heavy_water/"
-	}
-]
+{
+	"clear_obj" : true,
+	"gen_obj" : true,
+	"force_gen_obj": true,
+	"convert_to_glb": true,
+	"maps" : [
+		{
+			"name": "pl_wild_west"
+		},
+		{
+			"name": "ctf_2freak",
+			"file": "ctf_2freak_rc2",
+			"path": "5flag/"
+		},
+		{
+			"name": "ctf_heavy_water",
+			"file": "ctf5_heavy_water_a1",
+			"path": "5flag/ctf5_heavy_water/"
+		},
+		{
+			"name": "cp_spiral",
+			"file": "cp_spiral",
+			"path": "Offshore/"
+		},
+		{
+			"name": "tr_complex"
+		}
+	]
+}
