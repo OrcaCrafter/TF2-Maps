@@ -1,8 +1,11 @@
 {
-	"clear_obj" : true,
-	"gen_obj" : true,
-	"force_gen_obj": true,
-	"convert_to_glb": true,
+	"defaults" : {
+		"gen_obj" : true,
+		"force_gen_obj": false,
+		"clear_obj" : false,
+		"convert": true,
+		"convert_type": "glb"
+	},
 	"maps" : [
 		{
 			"name": "pl_wild_west"
@@ -24,6 +27,13 @@
 		},
 		{
 			"name": "tr_complex"
+		},
+		{
+			"name": "Orca_CTFGametypeLibrary",
+			"file": "Orca_CTFGametypeLibrary_08-14-24",
+			"path": "Refrence/",
+			"gen_obj": false,
+			"covert": false
 		}
 	]
 }

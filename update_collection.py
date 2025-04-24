@@ -86,8 +86,8 @@ def handle_map (map_data):
     #Pack map_data?
     #Compile map_data
     #Generate model as obj
-    if (data.get("gen_obj", True)):
-        if (not os.path.exists(tar_path + ".obj") or data.get("force_gen_obj", False)): 
+    if (map_data.get("gen_obj", defaults["gen_obj"])):
+        if (not os.path.exists(tar_path + ".obj") or map_data.get("force_gen_obj", defaults["force_gen_obj"])): 
             print("Generating Model");
             
             asset_dir_str = "";
@@ -100,16 +100,16 @@ def handle_map (map_data):
                     asset_dir_str += asset_dir + ";"
             
             command = f"java -jar ./vmf2obj.jar {file_path}.vmf -o ./{tar_path} -r \"{asset_dir_str}\" -t"
-
+            
             os.system(command);
 
     #Convert obj to glb
-    if (data.get("convert", True)):
-        print("Converting obj to " + data.get("convert_type", "glb"))
-        convert_model(tar_path + ".obj", tar_path + "." + data.get("convert_type", "glb"))
+    if (map_data.get("convert", True)):
+        print("Converting obj to " + map_data.get("convert_type", defaults["convert_type"]))
+        convert_model(tar_path + ".obj", tar_path + "." + map_data.get("convert_type", defaults["convert_type"]))
 
         #Cleanup obj files
-        if (data.get("clear_obj", False)):
+        if (map_data.get("clear_obj", defaults["clear_obj"])):
             print("Clearing obj")
             shutil.rmtree(col_path + "/materials");
             os.remove(tar_path + ".obj");
@@ -128,11 +128,35 @@ data = read_json_file('map_list.json')
 if (type(data) is str):
     input("Error: " + data)
 
+defaults = data["defaults"]
+
 thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=len(data["maps"]))
+
+
 
 #Itterate over all maps in the info file
 for map_data in data["maps"] :
     thread_pool.submit(handle_map, map_data)
 
 thread_pool.shutdown(wait=True)
+
+"""
+TODO setup dev shots
+
+#Linearaly itterate over all map to take dev shots
+if (data.get("dev-shot", false)):
+    for map_data in data["maps"] :
+        print("Taking dev Shots for map: " + map-map_data["name"])
+
+        
+        #Setup game open command
+
+        #Launch Team Fortress 2
+        command = "steam://rungameid/440"
+"""
+
+
+
+    
+
 input("Done Processing")
