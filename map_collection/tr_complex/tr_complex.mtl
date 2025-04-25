@@ -1,0 +1,333 @@
+# Decompiled with VMF2OBJ v2.0.3 by Dylancyclone
+
+
+newmtl tile/floor_tile_001a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/tile/floor_tile_001a.tga
+map_Kd materials/tile/floor_tile_001a.tga
+map_bump materials/tile/floor_tile_001a_normal.tga
+
+
+newmtl concrete/computerwall003c
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall003c.tga
+map_Kd materials/concrete/computerwall003c.tga
+
+
+newmtl brick/wall029
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/brick/wall029.tga
+map_Kd materials/brick/wall029.tga
+
+
+newmtl concrete/computerwall003a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall003a.tga
+map_Kd materials/concrete/computerwall003a.tga
+
+
+newmtl concrete/computerwall_blue_stained
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall_blue_stained.tga
+map_Kd materials/concrete/computerwall_blue_stained.tga
+
+
+newmtl dev/graygrid
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/graygrid.tga
+map_Kd materials/dev/graygrid.tga
+
+
+newmtl tile/tile_ceiling_001a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/tile/tile_ceiling_001a.tga
+map_Kd materials/tile/tile_ceiling_001a.tga
+
+
+newmtl dev/reflectivity_70
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/reflectivity_70.tga
+map_Kd materials/dev/reflectivity_70.tga
+
+
+newmtl brick/brickwall003c
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/brick/brickwall003c.tga
+map_Kd materials/brick/brickwall003c.tga
+map_bump materials/brick/brickwall002_height-ssbump.tga
+
+
+newmtl brick/brickwall006
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/brick/brickwall006.tga
+map_Kd materials/brick/brickwall006.tga
+map_bump materials/brick/brickwall002_height-ssbump.tga
+
+
+newmtl brick/brickwall003d
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/brick/brickwall003d.tga
+map_Kd materials/brick/brickwall003d.tga
+map_bump materials/brick/brickwall002_height-ssbump.tga
+
+
+newmtl concrete/computerwall004
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall004.tga
+map_Kd materials/concrete/computerwall004.tga
+
+
+newmtl metal/ibeam001b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/ibeam001b.tga
+map_Kd materials/metal/ibeam001b.tga
+
+
+newmtl concrete/computerwall003e
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall003e.tga
+map_Kd materials/concrete/computerwall003e.tga
+
+
+newmtl metal/imetal001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/imetal001.tga
+map_Kd materials/metal/imetal001.tga
+map_bump materials/metal/imetal001_normal.tga
+
+
+newmtl metal/imetal001b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/imetal001b.tga
+map_Kd materials/metal/imetal001b.tga
+
+
+newmtl nature/gravelground001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/gravelground001.tga
+map_Kd materials/nature/gravelground001.tga
+map_bump materials/nature/gravelground001_height-ssbump.tga
+
+
+newmtl concrete/computerwall002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall002.tga
+map_Kd materials/concrete/computerwall002.tga
+
+
+newmtl nature/blendgroundtogravel005
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/rockground008.tga
+map_Kd materials/nature/rockground008.tga
+map_bump materials/nature/rockground002_height-ssbump.tga
+
+
+newmtl nature/blendrockground004
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/dirtground006.tga
+map_Kd materials/nature/dirtground006.tga
+map_bump materials/nature/dirtground006_height-ssbump.tga
+
+
+newmtl nature/blendrockgroundwall003
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/rockwall001.tga
+map_Kd materials/nature/rockwall001.tga
+map_bump materials/nature/rockwall001_normal.tga
+
+
+newmtl metal/metaldoor001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/metaldoor001.tga
+map_Kd materials/metal/metaldoor001.tga
+map_bump materials/metal/metaldoor001_normal.tga
+
+
+newmtl concrete/computerwall006b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall006b.tga
+map_Kd materials/concrete/computerwall006b.tga
+
+
+newmtl concrete/concreteceiling001a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/concreteceiling001a.tga
+map_Kd materials/concrete/concreteceiling001a.tga
+
+
+newmtl brick/brickwall003b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/brick/brickwall003b.tga
+map_Kd materials/brick/brickwall003b.tga
+map_bump materials/brick/brickwall002_height-ssbump.tga
+
+
+newmtl dev/dev_measuregeneric01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/dev_measuregeneric01.tga
+map_Kd materials/dev/dev_measuregeneric01.tga
+
+
+newmtl dev/reflectivity_50
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/reflectivity_50.tga
+map_Kd materials/dev/reflectivity_50.tga
+
+
+newmtl dev/dev_blendmeasure
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/dev_measuregeneric01b.tga
+map_Kd materials/dev/dev_measuregeneric01b.tga
+
+
+newmtl concrete/computerwall005d
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall005d.tga
+map_Kd materials/concrete/computerwall005d.tga
+
+
+newmtl metal/wall011h
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/wall011g.tga
+map_Kd materials/metal/wall011g.tga
+
+
+newmtl concrete/computerwall005a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall005a.tga
+map_Kd materials/concrete/computerwall005a.tga
+
+
+newmtl concrete/computerwall007trim
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/computerwall007trim.tga
+map_Kd materials/concrete/computerwall007trim.tga
+
+
+newmtl concrete/concretewall002c_red
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/concretewall002c_red.tga
+map_Kd materials/concrete/concretewall002c_red.tga
+map_bump materials/concrete/concretewall002_bump-ssbump.tga
+
+
+newmtl customdev/dev_measuregeneric01blu
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/customdev/dev_measuregeneric01blu.tga
+map_Kd materials/customdev/dev_measuregeneric01blu.tga
+
+
+newmtl concrete/concretewall002e_red
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/concrete/concretewall002e_red.tga
+map_Kd materials/concrete/concretewall002e_red.tga
+map_bump materials/concrete/concretewall002_bump-ssbump.tga
+
+
+newmtl customdev/dev_measuregeneric01red
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/customdev/dev_measuregeneric01red.tga
+map_Kd materials/customdev/dev_measuregeneric01red.tga
+
+
+newmtl customdev/dev_measurewall01blu
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/customdev/dev_measurewall01blu.tga
+map_Kd materials/customdev/dev_measurewall01blu.tga
+
+
+newmtl pl_barnblitz/metalroof_panels001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/pl_barnblitz/metalroof_panels001.tga
+map_Kd materials/pl_barnblitz/metalroof_panels001.tga
+
+
+newmtl metal/metaltrim01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/metaltrim01.tga
+map_Kd materials/metal/metaltrim01.tga
+
+
+newmtl metal/floorplate01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/floor

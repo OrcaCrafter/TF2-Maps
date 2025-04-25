@@ -1,0 +1,603 @@
+# Decompiled with VMF2OBJ v2.0.3 by Dylancyclone
+
+
+newmtl dev/reflectivity_20
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/reflectivity_20.tga
+map_Kd materials/dev/reflectivity_20.tga
+
+
+newmtl customdev/dev_measuregeneric01blu
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/customdev/dev_measuregeneric01blu.tga
+map_Kd materials/customdev/dev_measuregeneric01blu.tga
+
+
+newmtl dev/graygrid
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/graygrid.tga
+map_Kd materials/dev/graygrid.tga
+
+
+newmtl nature/blendrockground002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/rockground002.tga
+map_Kd materials/nature/rockground002.tga
+map_bump materials/nature/rockground002_normal.tga
+
+
+newmtl nature/rockwall009
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/rockwall009.tga
+map_Kd materials/nature/rockwall009.tga
+map_bump materials/nature/rockwall009_height-ssbump.tga
+
+
+newmtl customdev/dev_measurewall01blu
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/customdev/dev_measurewall01blu.tga
+map_Kd materials/customdev/dev_measurewall01blu.tga
+
+
+newmtl dev/reflectivity_40
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/reflectivity_40.tga
+map_Kd materials/dev/reflectivity_40.tga
+
+
+newmtl dev/dev_measuregeneric01b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/dev_measuregeneric01b.tga
+map_Kd materials/dev/dev_measuregeneric01b.tga
+
+
+newmtl dev/reflectivity_90
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/reflectivity_90.tga
+map_Kd materials/dev/reflectivity_90.tga
+
+
+newmtl nature/blendgroundtogravel006
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/gravelcoal001.tga
+map_Kd materials/nature/gravelcoal001.tga
+
+
+newmtl overlays/dirtroad004
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/overlays/dirtroad004.tga
+map_Kd materials/overlays/dirtroad004.tga
+illum 4
+
+
+newmtl nature/blendgroundtogravel001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/dirtground001.tga
+map_Kd materials/nature/dirtground001.tga
+map_bump materials/nature/dirtground001_height-ssbump.tga
+
+
+newmtl nature/dirtground_canyon4
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/dirtground_canyon4.tga
+map_Kd materials/nature/dirtground_canyon4.tga
+map_bump materials/nature/dirtgroundcanyon_normal.tga
+
+
+newmtl nature/blendgroundtograss004
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/rockground006.tga
+map_Kd materials/nature/rockground006.tga
+map_bump materials/nature/dirtground001_height-ssbump.tga
+
+
+newmtl customdev/dev_measurewall01red
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/customdev/dev_measurewall01red.tga
+map_Kd materials/customdev/dev_measurewall01red.tga
+
+
+newmtl water/water_2fort
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/TOOLS/TOOLSDOTTED.tga
+map_Kd materials/TOOLS/TOOLSDOTTED.tga
+
+
+newmtl wood/grain_elevator_silo_10b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/grain_elevator_silo_10b.tga
+map_Kd materials/wood/grain_elevator_silo_10b.tga
+
+
+newmtl pl_barnblitz/woodwall_yellowworn002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/pl_barnblitz/woodwall_yellowworn002.tga
+map_Kd materials/pl_barnblitz/woodwall_yellowworn002.tga
+map_bump materials/wood/grain_elevator_facade_06_normal.tga
+
+
+newmtl medieval/woodtrim001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/medieval/woodtrim001.tga
+map_Kd materials/medieval/woodtrim001.tga
+
+
+newmtl wood/wall020b
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/wall020b.tga
+map_Kd materials/wood/wall020b.tga
+map_bump materials/wood/wall020_height-ssbump.tga
+
+
+newmtl coalmines/blendgroundtograss_coalmines2
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/gravelgrayred001.tga
+map_Kd materials/nature/gravelgrayred001.tga
+map_bump materials/nature/dirtground006_height-ssbump.tga
+
+
+newmtl egypt/sand_cliff_blend_01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/nature/cliff_terrain03.tga
+map_Kd materials/nature/cliff_terrain03.tga
+
+
+newmtl glass/glasswindow004a
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/glass/glasswindow004a.tga
+map_Kd materials/glass/glasswindow004a.tga
+illum 4
+
+
+newmtl dev/reflectivity_80
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/reflectivity_80.tga
+map_Kd materials/dev/reflectivity_80.tga
+
+
+newmtl dev/dev_measureice01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/dev/dev_measureice01.tga
+map_Kd materials/dev/dev_measureice01.tga
+
+
+newmtl overlays/no_entry_nocull
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/overlays/no_entry.tga
+map_Kd materials/overlays/no_entry.tga
+illum 4
+
+
+newmtl metal/ibeam001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/ibeam001.tga
+map_Kd materials/metal/ibeam001.tga
+map_bump materials/metal/ibeam001_normal.tga
+
+
+newmtl metal/chicken_wire001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/chicken_wire001.tga
+map_Kd materials/metal/chicken_wire001.tga
+illum 4
+
+
+newmtl glass/green_glass_translucent
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/glass/glasswindow002b.tga
+map_Kd materials/glass/glasswindow002b.tga
+illum 4
+
+
+newmtl customdev/dev_measuregeneric01red
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/customdev/dev_measuregeneric01red.tga
+map_Kd materials/customdev/dev_measuregeneric01red.tga
+
+
+newmtl cp_manor/wood_floor01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/cp_manor/wood_floor01.tga
+map_Kd materials/cp_manor/wood_floor01.tga
+
+
+newmtl cp_manor/wood_shingles01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/cp_manor/wood_shingles01.tga
+map_Kd materials/cp_manor/wood_shingles01.tga
+map_bump materials/cp_manor/wood_shingles01_ssbump.tga
+
+
+newmtl miningcrate002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_2fort/miningcrate002.tga
+map_Kd materials/models/props_2fort/miningcrate002.tga
+
+
+newmtl barrel_crate
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_hydro/barrel_crate.tga
+map_Kd materials/models/props_hydro/barrel_crate.tga
+
+
+newmtl miningcrate001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_2fort/miningcrate001.tga
+map_Kd materials/models/props_2fort/miningcrate001.tga
+
+
+newmtl milk_crate
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_forest/milk_crate.tga
+map_Kd materials/models/props_forest/milk_crate.tga
+
+
+newmtl ladder001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_2fort/ladder001.tga
+map_Kd materials/models/props_2fort/ladder001.tga
+
+
+newmtl crate_diffuse
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_swamp/crate_diffuse.tga
+map_Kd materials/models/props_swamp/crate_diffuse.tga
+
+
+newmtl blacksmith_hammer
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_medieval/blacksmith_hammer.tga
+map_Kd materials/models/props_medieval/blacksmith_hammer.tga
+
+
+newmtl pick001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_2fort/pick001.tga
+map_Kd materials/models/props_2fort/pick001.tga
+
+
+newmtl track_mining
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/track_mining.tga
+map_Kd materials/models/props_mining/track_mining.tga
+
+
+newmtl train_stop
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_forest/train_stop.tga
+map_Kd materials/models/props_forest/train_stop.tga
+
+
+newmtl wood_wall002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/wood_wall002.tga
+map_Kd materials/wood/wood_wall002.tga
+
+
+newmtl wood_fence_128
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_coalmine/wood_fence_128.tga
+map_Kd materials/models/props_coalmine/wood_fence_128.tga
+
+
+newmtl chicken_wire
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_coalmine/chicken_wire.tga
+map_Kd materials/models/props_coalmine/chicken_wire.tga
+illum 4
+
+
+newmtl wood_bridge002
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/wood_bridge002.tga
+map_Kd materials/wood/wood_bridge002.tga
+
+
+newmtl train_tunnel_01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_forest/train_tunnel_01.tga
+map_Kd materials/models/props_forest/train_tunnel_01.tga
+
+
+newmtl sniper_fence01_red
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_2fort/sniper_fence01_red.tga
+map_Kd materials/models/props_2fort/sniper_fence01_red.tga
+
+
+newmtl frame
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_swamp/frame.tga
+map_Kd materials/models/props_swamp/frame.tga
+
+
+newmtl stairs001a_wood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/wood/wood_floor001.tga
+map_Kd materials/wood/wood_floor001.tga
+
+
+newmtl woodwall_brownslats001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/pl_barnblitz/woodwall_brownslats001.tga
+map_Kd materials/pl_barnblitz/woodwall_brownslats001.tga
+
+
+newmtl rock003
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/rock003.tga
+map_Kd materials/models/props_mining/rock003.tga
+
+
+newmtl rock004
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/rock004.tga
+map_Kd materials/models/props_mining/rock004.tga
+
+
+newmtl tracks001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_2fort/tracks001.tga
+map_Kd materials/models/props_2fort/tracks001.tga
+
+
+newmtl sawmill_wood
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_forest/sawmill_wood.tga
+map_Kd materials/models/props_forest/sawmill_wood.tga
+
+
+newmtl rock001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/rock001.tga
+map_Kd materials/models/props_mining/rock001.tga
+
+
+newmtl rock007
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/rock007.tga
+map_Kd materials/models/props_mining/rock007.tga
+
+
+newmtl train_container
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_vehicles/train_container.tga
+map_Kd materials/models/props_vehicles/train_container.tga
+
+
+newmtl train_boxcar_noladder
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_vehicles/train_boxcar_noladder.tga
+map_Kd materials/models/props_vehicles/train_boxcar_noladder.tga
+
+
+newmtl train_flatcar
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_vehicles/train_flatcar.tga
+map_Kd materials/models/props_vehicles/train_flatcar.tga
+
+
+newmtl train_enginecar
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_vehicles/train_enginecar.tga
+map_Kd materials/models/props_vehicles/train_enginecar.tga
+
+
+newmtl watertower
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/watertower.tga
+map_Kd materials/models/props_mining/watertower.tga
+
+
+newmtl cart_bomb
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_trainyard/cart_bomb.tga
+map_Kd materials/models/props_trainyard/cart_bomb.tga
+
+
+newmtl cart_dispenser
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_trainyard/cart_dispenser.tga
+map_Kd materials/models/props_trainyard/cart_dispenser.tga
+
+
+newmtl cart_base
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_trainyard/cart_base.tga
+map_Kd materials/models/props_trainyard/cart_base.tga
+
+
+newmtl train_bumper_diffuse
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/custom/train_bumper_diffuse.tga
+map_Kd materials/models/custom/train_bumper_diffuse.tga
+
+
+newmtl water_machinery1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_hydro/water_machinery1.tga
+map_Kd materials/models/props_hydro/water_machinery1.tga
+
+
+newmtl fence_small_bb01
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_barnblitz/fence_small_bb01.tga
+map_Kd materials/models/props_barnblitz/fence_small_bb01.tga
+
+
+newmtl chicken_wire001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/metal/chicken_wire001.tga
+map_Kd materials/metal/chicken_wire001.tga
+illum 4
+
+
+newmtl wood_fence_256
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_coalmine/wood_fence_256.tga
+map_Kd materials/models/props_coalmine/wood_fence_256.tga
+
+
+newmtl mining_car
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_vehicles/mining_car.tga
+map_Kd materials/models/props_vehicles/mining_car.tga
+
+
+newmtl sign001
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_mining/sign001.tga
+map_Kd materials/models/props_mining/sign001.tga
+
+
+newmtl wood_debris1
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+map_Ka materials/models/props_coalmine/wood_debris1.tga
+map_Kd materials/models/props_coalmine/wood_debris1.tga
+

@@ -141,6 +141,10 @@ for map_data in data["maps"] :
 thread_pool.shutdown(wait=True)
 
 """
+TODO compile maps
+
+TODO convert to glb directly from compiled maps using blendpy and blender source tools
+
 TODO setup dev shots
 
 #Linearaly itterate over all map to take dev shots

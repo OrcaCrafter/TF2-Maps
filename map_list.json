@@ -1,7 +1,7 @@
 {
 	"defaults" : {
 		"gen_obj" : true,
-		"force_gen_obj": false,
+		"force_gen_obj": true,
 		"clear_obj" : false,
 		"convert": true,
 		"convert_type": "glb"
